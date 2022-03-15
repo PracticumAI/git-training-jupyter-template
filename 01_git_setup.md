@@ -1,5 +1,7 @@
 # Setting up your GitHub account within Jupyter Lab
 
+![PracticumAI logo](https://github.com/PracticumAI/practicumai.github.io/blob/main/images/logo/PracticumAI_logo_500x100.png?raw=true)
+
 This tutorial will get your github account setup to work with git and GitHub within Jupyter Lab. It is primarily intended for use on [HiPerGator](https://www.rc.ufl.edu/), but will work on most systems when you run Jupyter.
 
 ## Create a GitHub.com account

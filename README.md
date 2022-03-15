@@ -8,21 +8,21 @@ As a best practice, code should reside in a version control system. These system
 
 In addition to using `git`, it is possible to use one of many online git hosting sites. For *Practicum AI* we use [GitHub.com](https://github.com/). There are other options, but GitHub is one of the leading online hosting companies and offers [educational discounts for students and faculty](https://education.github.com/).
 
-This training will start with some slides which are part of the source repository at: <https://ufresearchcomputing.github.io/git-training/#/>
+**This training will start with some slides which are part of the source repository at: <https://ufresearchcomputing.github.io/git-training/#/>**
 
-After going over the slides, we'll come back to this.
+After going over the [slides](https://ufresearchcomputing.github.io/git-training/#/), we'll come back to this.
 
-## Setup
+## 1. Setup
 
-The [git_setup.md](git_setup.md) page has some basic git and github configuration information.
+The [01_git_setup.md](01_git_setup.md) page has some basic git and github configuration information.
 
-> To learn about setting up your github account to use ssh keys, check out the [git setup page](git_setup.md).
+> To learn about setting up your github account to use ssh keys, check out the [01_git setup page](01_git_setup.md).
 
-## Continue on the [Step_01.ipynb notebook](Step_01.ipynb)
+## 2. Continue on the [02_exercise.ipynb notebook](02_exercise.ipynb)
 
-Once you have setup your GitHub account and ssh keys, you can continue to the [exercise](Step_01.ipynb).
+Once you have setup your GitHub account and ssh keys, you can continue to the [exercise](02_exercise.ipynb).
 
-## Resources
+## Additional Resources
 
 There are many great git and github.com tutorials out there. Here are some that I particularly like and have relied on in developing this training.
 
