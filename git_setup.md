@@ -11,37 +11,35 @@ This tutorial will get your github account setup to work with git and GitHub wit
 
 **As of August 2021, GitHub.com no longer supports using username/password to work with repositories.** You should setup and add a public ssh key to your github.com account. [GitHub has good instructions on doing this](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh), but the main steps will be replicated here. If you encounter problems, I suggest checking the detailed instructions from GitHub.
 
-1. In Jupyter Lab, open a Teminal by scrolling to the bottom of the Launcher pannel and clicking on the terminal button 
+1. In Jupyter Lab, open a Terminal by scrolling to the bottom of the Launcher panel and clicking on the terminal button:
 
    ![Screenshot of the open terminal button](images/open_terminal.png)
 
-1. Create a ed25519 ssh key pair to use for GitHub. As outlined [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent), type: 
+1. Create an ed25519 ssh key pair to use for GitHub. As outlined [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent), type: 
 
-   `ssh-keygen -t ed25519 -C "your_email@example.com"` 
-   
-   (**Repleacing the email address** with the one you used when creating your GitHub account.) 
- 
-   * If you can't remembe which email you used for your GitHub account, you can check at this link: https://github.com/settings/emails 
+   `ssh-keygen -t ed25519 -C "your_email@example.com"`
+
+   (**Replacing the email address** with the one you used when creating your GitHub account.)
+
+   * If you can't remember which email you used for your GitHub account, you can check at this link: [https://github.com/settings/emails](https://github.com/settings/emails).
 
 1. After typing the above command, you will be asked to enter a file in which to save the key. Hit `Enter` to accept the default name. 
 
    > **Note**: The **name** and **location** of this file are important! Using a different name or changing the location will cause the key pair to not work.
 
-1. Then you will be asked to enter a passphrase. Leave this empty. This is somewhat less secure, as anyone who has access to your private key would be able to impersonate you. **However Jupyter Lab does not work with ssh keys with a passphrase.** If you want to use GitHub in Jupyter Lab, do not add a passphrase--just hit `Enter` for the passphrase and varification.
+1. Then you will be asked to enter a passphrase. Leave this empty. This is somewhat less secure, as anyone who has access to your private key would be able to impersonate you. **However Jupyter Lab does not work with ssh keys with a passphrase.** If you want to use GitHub in Jupyter Lab, do not add a passphrase--just hit `Enter` for the passphrase and verification.
 
 1. Now that you have created the ssh key pair, we need to add the public portion to your github account. Type 
 
    `cat ~/.ssh/id_ed25519.pub` **and then copy the output.**
 
-1. Go to your GitHub Settings at: https://github.com/settings/keys
+1. Go to your GitHub Settings at: [https://github.com/settings/keys](https://github.com/settings/keys).
 
 1. As outlined [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account), click the New SSH Key button. ![Screenshot of the New SSH Key button](images/new_key.png)
 
 1. Give the key a name, "HiPerGator" for example, and paste the public key text you copied above into the Key box.
 
-
-> There is also a [short video with a walk-through](https://web.microsoftstream.com/video/b0e02a2d-f108-44ff-aea2-276d98a8b524) of setting up ssh keys with github.
-
+> There is also a [short video with a walk-through](https://web.microsoftstream.com/video/b0e02a2d-f108-44ff-aea2-276d98a8b524) of setting up ssh keys with github (Requires UF login).
 
 ## Optional git configuration
 
@@ -78,5 +76,3 @@ Git uses your system's default editor--typically vim on Linux systems--as the te
 | Emacs              | `$ git config --global core.editor "emacs"`   |
 | Vim                | `$ git config --global core.editor "vim"`   |
 | VS Code                | `$ git config --global core.editor "code --wait"`   |
-
-
