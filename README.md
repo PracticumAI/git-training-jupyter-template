@@ -18,7 +18,6 @@ The [git_setup.md](git_setup.md) page has some basic git and github configuratio
 
 > To learn about setting up your github account to use ssh keys, check out the [git setup page](git_setup.md).
 
-
 ## Continue on the [Step_01.ipynb notebook](Step_01.ipynb)
 
 Once you have setup your GitHub account and ssh keys, you can continue to the [exercise](Step_01.ipynb).
