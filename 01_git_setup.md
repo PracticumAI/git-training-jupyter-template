@@ -43,7 +43,7 @@ This tutorial will get your github account setup to work with git and GitHub wit
 
 1. Give the key a name, "HiPerGator" for example, and paste the public key text you copied above into the Key box.
 
-1. Test your key. Type:
+1. **IMPORTANT: Do not skip this step** Test the key and add github.com to your known hosts. Back in the Jupyter terminal, type:
 
    `ssh -T git@github.com`
 
@@ -59,9 +59,13 @@ This tutorial will get your github account setup to work with git and GitHub wit
 
    This is the expected reply, your GitHub.com user name will be shown along with a note that you have successfully authenticated (using the setup ssh keys), but that GitHub does not provide shell access.
 
-   > There is also a [short video with a walk-through](https://web.microsoftstream.com/video/b0e02a2d-f108-44ff-aea2-276d98a8b524) of setting up ssh keys with github (Requires UF login).
+### Video walk-through
+
+> There is also a [short video with a walk-through](https://web.microsoftstream.com/video/b0e02a2d-f108-44ff-aea2-276d98a8b524) of setting up ssh keys with github (Requires UF login).
 
 ## Next: Open the [02_exercise.ipynb](02_exercise.ipynb)
+
+
 
 ## Optional git configuration
 
