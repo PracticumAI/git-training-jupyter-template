@@ -39,7 +39,7 @@ This tutorial will get your github account setup to work with git and GitHub wit
 
 1. Go to your GitHub Settings at: [https://github.com/settings/keys](https://github.com/settings/keys).
 
-1. As outlined [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account), click the New SSH Key button. [![Screenshot of the New SSH Key button](images/new_key.png)](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+1. As outlined [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account), click the New SSH Key button. [![Screenshot of the New SSH Key button](images/new_key.png)](https://github.com/settings/ssh/new)
 
 1. Give the key a name, "HiPerGator" for example, and paste the public key text you copied above into the Key box.
 
