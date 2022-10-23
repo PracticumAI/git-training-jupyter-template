@@ -11,6 +11,7 @@ In addition to using `git`, it is possible to use one of many online git hosting
 **This training will start with some slides which are part of the source repository at: <https://ufresearchcomputing.github.io/git-training/#/>**
 
 After going over the [slides](https://ufresearchcomputing.github.io/git-training/#/), we'll come back to this.
+[![Screenshot of the title slide of the presentation on Git and Github.com](images/slides_screenshot.png)](https://ufresearchcomputing.github.io/git-training/#/)
 
 ## 1. Setup: [01_git_setup.md](01_git_setup.md)
 
