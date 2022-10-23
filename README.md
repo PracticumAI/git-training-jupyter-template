@@ -1,6 +1,6 @@
 # Practicum AI git and GitHub.com
 
-[![Practicum AI Logo image](https://github.com/PracticumAI/practicumai.github.io/blob/main/images/logo/PracticumAI_logo_500x100.png?raw=true)](https://practicumai.org/)
+[![Practicum AI Logo image](https://github.com/PracticumAI/practicumai.github.io/blob/main/images/logo/PracticumAI_logo_250x50.png?raw=true)](https://practicumai.org/)<img src='https://github.com/PracticumAI/practicumai.github.io/blob/main/images/icons/practicumai_git.png?raw=true' align='right' width=50>
 
 As we've seen, AI is powered by code--Python code, run in Jupyter Notebooks in our case.
 
@@ -12,7 +12,7 @@ In addition to using `git`, it is possible to use one of many online git hosting
 
 After going over the [slides](https://ufresearchcomputing.github.io/git-training/#/), we'll come back to this.
 
-## 1. Setup
+## 1. Setup: [01_git_setup.md](01_git_setup.md)
 
 The [01_git_setup.md](01_git_setup.md) page has some basic git and github configuration information.
 
